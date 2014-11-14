@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="c1449de0-816a-4a4a-9295-f42ca08fe4e0" name="UseCase" linkedPackageId="df06ce46-2753-4a31-b7b6-1fb496f94e12" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="bc94c4af-de12-48a4-ae56-9a967847698d">
+      <profileInstance Id="9070d9d6-0210-4dd0-b1b0-44b49a648e43" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a992021c-f4dd-4416-b037-262fd4b85615">
+      <profileInstance Id="70227d5c-8f0d-42f2-ac21-fee485b7c43b" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="5e0881ae-fe9e-4c02-bf28-77a0b61a1aab" name="Turist" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b2731dfe-7ea1-4b04-a7db-2251af63a841" />
+        <targetEnds>
+          <association Id="ef4d08af-675d-46fd-8108-9bc0ba7780bd" isDerived="false" sourceEndRoleName="Turist" targetEndRoleName="Vælg attraktion" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8ea9265e-fe97-49cb-8cce-43529c6b1e47" LastKnownName="Vælg attraktion" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="820d767d-a491-4c0f-b208-00d018701f9b" name="Turist" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2d98e583-d4ce-49bc-9874-adce82c5ef83" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ad5649b5-1e0a-4ee7-b41b-2c9cdb7f4464" name="Vælg attraktion" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7d8981da-d92d-47c7-8fef-681ca348038d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1d5bdc04-1b13-4f67-959b-fe48c06161bf" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3c20d0e6-c0fb-4761-b6f4-efb2c2f6422a" name="Opret Kommentar" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5749d93d-f790-4f0e-8b4a-04d6aa3bc6aa" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8ea9265e-fe97-49cb-8cce-43529c6b1e47" name="Vælg attraktion" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2872ec6e-2c7d-41a3-b417-6a174659bf8f" />
+        <targetEnds>
+          <association Id="1830cabf-7314-4c55-9ab2-8f3b2f243f69" isDerived="false" sourceEndRoleName="Vælg attraktion" targetEndRoleName="Opret Kommentar" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3c20d0e6-c0fb-4761-b6f4-efb2c2f6422a" LastKnownName="Opret Kommentar" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d26fab02-572c-4832-b622-3cb4c583aac1" name="Vælg attraktion" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f2467daf-9802-4d50-a5fe-bf9a9a9811f5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9bfcdfde-a41e-4608-a8f4-77e7bf59085c" name="Opret Kommentar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bcd525df-3af5-4023-a0b7-fc89d1e5cab3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="067f7578-1d17-454a-9b11-72765097fc07" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="df06ce46-2753-4a31-b7b6-1fb496f94e12" name="DomainModel">
+    <elementDefinition Id="af11a049-3827-4c91-94f0-661281ba42b4" />
+  </package>
+</useCaseModelRoot>

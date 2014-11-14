@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="2f047b0a-59c7-4dd8-a5a9-2c371e858520" name="SequenceDiagram" linkedPackageId="77c3487f-30ac-4395-8dc4-e89a470febf9" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="80582d7c-c9f4-4cfe-8d61-74318032fbe4">
+      <profileInstance Id="335bdd6f-a193-4f7c-a900-3773cfabccbc" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="2239ff41-61ae-4d69-a376-e70b55c59bc7">
+      <profileInstance Id="687b6b48-41c7-4796-8ac3-7fe78c8b00bd" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="f7ae43c6-2af4-45ba-ab66-4f197b96cf02" name="SequenceDiagram" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <elementDefinition Id="cc195b5c-17af-4149-9e6d-9bb0c799acef" />
+        <lifelines>
+          <lifeline Id="2edbbbd4-3c0f-4d41-86cc-89e213d38e08" name="Turist" isActor="true" lifelineDisplayName="Turist">
+            <elementDefinition Id="d4b0115f-0d3b-45e0-900f-d3102ff367df" />
+            <represents>
+              <propertyMoniker Id="b5b8d2f4-2233-41e8-bcc0-bd945c56029a" />
+            </represents>
+          </lifeline>
+          <lifeline Id="ca74e066-9d39-426f-b20b-4464a38b5627" name="Lifeline1" isActor="false" lifelineDisplayName="Lifeline1">
+            <elementDefinition Id="a980fd21-73a9-41f4-af78-6a3e53b1c5d8" />
+          </lifeline>
+        </lifelines>
+        <ownedAttributesInternal>
+          <property Id="b5b8d2f4-2233-41e8-bcc0-bd945c56029a" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="951eb3c0-8b26-4630-9134-9069dc4ddbd3" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1b1396d4-4104-49ed-9896-ca020a244ba5" LastKnownName="Turist" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1b1396d4-4104-49ed-9896-ca020a244ba5" name="Turist" isAbstract="false" isLeaf="false" cachedFullName="DomainModel::Turist">
+        <elementDefinition Id="b2731dfe-7ea1-4b04-a7db-2251af63a841" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="77c3487f-30ac-4395-8dc4-e89a470febf9" name="DomainModel">
+    <elementDefinition Id="af11a049-3827-4c91-94f0-661281ba42b4" />
+  </package>
+</SequenceDesignerModel>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UseCase">
+  <useCaseModelRootMoniker Id="c1449de0-816a-4a4a-9295-f42ca08fe4e0" />
+  <nestedChildShapes>
+    <actorShape Id="31c4266d-92d4-4339-b66a-98d09d69ad14" absoluteBounds="0.5, 1.375, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="5e0881ae-fe9e-4c02-bf28-77a0b61a1aab" LastKnownName="Turist" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="2c883672-87cb-4b5c-9d57-4491b21e7cc5" absoluteBounds="3, 1.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="3c20d0e6-c0fb-4761-b6f4-efb2c2f6422a" LastKnownName="Opret Kommentar" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="2d36c732-315c-4edb-b1da-54bfcb0fc710" absoluteBounds="1.5, 1.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="8ea9265e-fe97-49cb-8cce-43529c6b1e47" LastKnownName="Vælg attraktion" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1 : 1.625); (1.5 : 1.625)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="ef4d08af-675d-46fd-8108-9bc0ba7780bd" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="31c4266d-92d4-4339-b66a-98d09d69ad14" />
+        <useCaseShapeMoniker Id="2d36c732-315c-4edb-b1da-54bfcb0fc710" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(2.5 : 1.625); (3 : 1.625)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="1830cabf-7314-4c55-9ab2-8f3b2f243f69" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="2d36c732-315c-4edb-b1da-54bfcb0fc710" />
+        <useCaseShapeMoniker Id="2c883672-87cb-4b5c-9d57-4491b21e7cc5" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>
